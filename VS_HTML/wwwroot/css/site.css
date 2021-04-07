@@ -1,0 +1,64 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+/* Music Video Embed */
+/* Centers the video and adds some spacing to better display under the navbar */
+.musicVideo {   
+    padding-top: 2em;
+    text-align: center;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+/* Animated Text Style */
+/* learned from source: https://javascript.info/js-animation */
+
+textarea {
+    display: block;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    font-size: 110%;
+    resize: none;
+    overflow: hidden;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+}
